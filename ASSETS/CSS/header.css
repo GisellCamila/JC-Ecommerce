@@ -1,0 +1,62 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #006170; */
+    /* box-shadow: 0px 3px 34px -8px rgba(0,97,112,1); */
+}
+
+.header__brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__brand img {
+    width: 2.75rem;
+    height: 2.75rem;
+    /* rem = tamaño de la etiqueta html por lo que hallamos puedto de rems */
+}
+
+.header__brand h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.header__menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__link {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.header__link:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.header__link--button {
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    border-radius: 8rem;
+    transition: 0.3s;
+}
+
+.header__link--button:hover {
+    background-color: #ffffff55;
+}
