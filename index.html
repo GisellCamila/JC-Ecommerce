@@ -10,13 +10,17 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__brand">
             <img src="./ASSETS/IMG/favicon.svg" alt="Shoppping cart main logo in page">
             <h1>JC Ecommerce Website</h1>
         </div>
 
-        <nav>
+        <img class="header__icon" src="./ASSETS/IMG/menu.svg" alt="Icon for resposive menu" id="menu-open"> 
+
+        <nav class="header__nav" id="nav-menu">
+            <img class="header__icon header__icon--close" id="menu-close" src="./ASSETS/IMG/close.svg" alt="Close icon for responsive menu">
+
             <ul class="header__menu">
                 <li><a class="header__link" href="./index.html">Inicio</a></li>
                 <li><a class="header__link" href="./ASSETS/VIEWS/products.html">Ir al comercio</a></li>

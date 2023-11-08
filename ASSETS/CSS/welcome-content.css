@@ -32,9 +32,29 @@
     border-right: 3px solid #006170;
     width: 41ch;
     /* ch es lo que mide un 0 */
-    animation: typing 7s steps(54) infinite, blink .5s infinite step-end alternate;
+    animation: typing 7s steps(50, end), blink .5s infinite step-end alternate;
     overflow: hidden;
     text-shadow: -2px 4px 4px rgba(0,0,0,1);
+}
+
+@media screen and (width <= 720px){
+    .banner__tittle{
+        font-size: 40px;
+    }
+
+    .banner__subtittle{
+        font-size: 20px;
+    }
+}
+
+@media screen and (width <= 500px){
+    .banner__tittle{
+        font-size: 30px;
+    }
+
+    .banner__subtittle{
+        font-size: 15px;
+    }
 }
 
 @keyframes typing {
@@ -48,3 +68,4 @@
         border-color: transparent;
     }
 }
+

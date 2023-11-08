@@ -6,6 +6,7 @@
     font-size: 40px;
     text-align: center;
     padding-top: 50px;
+    margin-bottom: 20px;
 }
 
 .services__container {
@@ -69,4 +70,15 @@
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
+}
+
+@media screen and (width <= 720px){
+    .services__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services {
+        margin: 0 auto;
+        padding-inline: 10px;
+    }
 }
