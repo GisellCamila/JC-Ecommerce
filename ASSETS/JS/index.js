@@ -27,3 +27,8 @@ addEventListener('scroll', () => {
         header.classList.remove('header--fill')
     }
 })
+
+const testimonials = document.querySelectorAll('.testimonials__element')
+testimonials.forEach((testi) => {
+    testi.firstElementChild.style.height = `${testi.getBoundingClientRect().height + 2.67}px`
+})
