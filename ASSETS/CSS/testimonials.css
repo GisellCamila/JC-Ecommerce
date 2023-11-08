@@ -54,3 +54,16 @@
 .testimonials__icon {
     width: 25px;
 }
+
+@media screen and (width <=720px) {
+    .testimonials__element {
+        flex-direction: column;
+        margin: 6px;
+    }
+
+    .testimonials__image {
+        flex: auto;
+        border-radius: 0;
+        border-radius: 10px 10px 0 0;
+    }
+}
