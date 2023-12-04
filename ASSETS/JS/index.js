@@ -2,6 +2,7 @@ const header = document.getElementById('header')
 const menuOpen = document.getElementById('menu-open')
 const menuClose = document.getElementById('menu-close')
 const navMenu = document.getElementById('nav-menu')
+
 // Menu responsive
 if (menuOpen) {
   menuOpen.addEventListener('click', () => {

@@ -26,7 +26,7 @@ const form = document.getElementById('product-form')
 form.addEventListener('submit', (event) => {
     event.preventDefault()
     let products = JSON.parse(localStorage.getItem('PRODUCTS')) || []
-
+-
     const isUpdating = JSON.parse(form.getAttribute('updating'))
 
     if (isUpdating) {

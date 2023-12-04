@@ -102,6 +102,7 @@
         box-shadow: 0px 3px 34px -8px rgba(0, 97, 112, 1);
         width: 80%;
         transition: right 0.3s;
+        align-items: center;
     }
 
     .header__menu {
